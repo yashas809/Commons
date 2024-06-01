@@ -1,15 +1,14 @@
-package communication.utility.service;
+package common.service;
 
-import communication.utility.dao.CaseInfo;
-import communication.utility.dao.Communication;
-import communication.utility.entity.MainCommunicationEntity;
-import communication.utility.entity.MessagesEntity;
-import communication.utility.repository.CommunicationRepository;
-import communication.utility.repository.MessageRepository;
+import common.repository.CommunicationRepository;
+import common.dao.CaseInfo;
+import common.dao.Communication;
+import common.entity.MainCommunicationEntity;
+import common.entity.MessagesEntity;
+import common.repository.MessageRepository;
 import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 
 import java.time.LocalDateTime;
 import java.util.*;

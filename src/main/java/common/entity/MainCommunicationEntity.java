@@ -1,4 +1,4 @@
-package communication.utility.entity;
+package common.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package communication.utility.dao;
+package common.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

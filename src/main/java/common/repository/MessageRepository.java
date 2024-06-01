@@ -1,6 +1,6 @@
-package communication.utility.repository;
+package common.repository;
 
-import communication.utility.entity.MessagesEntity;
+import common.entity.MessagesEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

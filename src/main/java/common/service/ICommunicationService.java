@@ -1,7 +1,7 @@
-package communication.utility.service;
+package common.service;
 
-import communication.utility.dao.CaseInfo;
-import communication.utility.dao.Communication;
+import common.dao.Communication;
+import common.dao.CaseInfo;
 
 import java.util.List;
 
